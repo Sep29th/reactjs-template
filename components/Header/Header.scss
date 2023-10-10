@@ -1,0 +1,25 @@
+.header {
+  background-color: #6c757d;
+  &__config {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__logo {
+    color: white;
+    font-size: 30px;
+    a {
+      color: white;
+      text-decoration: none;
+    }
+  }
+  &__link {
+    color: #cccccc;
+    &:hover {
+      color: white;
+    }
+    &.active {
+      color: white !important;
+    }
+  }
+}

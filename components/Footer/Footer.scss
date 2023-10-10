@@ -1,0 +1,13 @@
+.footer {
+  background-color: #6c757d;
+  &__config {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__text {
+    color: white;
+    margin: 10px;
+  }
+}
